@@ -44,16 +44,19 @@
   display: flex;
 }
 
-#list-in-complete, #list-completed {
+#list-in-complete, 
+#list-completed {
   margin: 0;
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -127,7 +130,7 @@ input,button{
   margin: 0 10px;
 }
 
-.list-item  .list-item-title {
+.list-item .list-item-title {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
