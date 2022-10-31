@@ -4,46 +4,59 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header-img {
   width: 100%;
 }
+
 .header-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header { 
+    text-align: center;
+  }
+
 }
-}
+
 .main-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .sect-title-add-elem-in-wrap {
   display: flex;
 }
+
 #list-in-complete, #list-completed {
   margin:0;
   padding: 0px;
 }
+
 li, h3 {
   list-style:none;
 }
+
 input,button{
   outline:none;
 }
+
 .btn-elem {
   background: none;
   border: 0px;
@@ -53,10 +66,13 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn-elem:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .section-title {
   color: #333;
   font-weight: 700;
@@ -66,6 +82,7 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .input-txt {
   margin: 0;
   font-size: 18px;
@@ -78,20 +95,24 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input-txt:focus {
   color: #333;
 }
 
 /* New Task */
+
 .section-title {
   display: block;
   margin: 0 0 20px;
 }
+
 #section-title-add-elem {
   width: 318px;
 }
 
 /* Task list */
+
 .list-item {
   overflow: hidden;
   padding: 20px 0;
@@ -101,34 +122,41 @@ input,button{
   justify-content: space-between;
   align-items: center;
 }
+
 .item-checkbox {
   margin: 0 10px;
 }
+
 .list-item  .list-item-title {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list-item .input-txt {
   width: 226px
 }
+
 .btn-elem-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn-elem-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 #list-completed .list-item-title {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .list-item .input-txt {
   display:none
 }
